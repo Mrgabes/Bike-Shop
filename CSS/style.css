@@ -12,24 +12,42 @@
   justify-content: center;
 }
 
+.carouselExampleCaption {
+  height: 3rem;
+}
 #cnt-colmn {
   display: flex;
+  justify-content: center;
   margin-top: 2em;
 }
 
 img {
-  width: 25em;
+width: 400px;
 }
 
 .container-md {
   display: flex;
-  
-  }
+  justify-content:space-around;
+  border:solid black;
+
+}
 
 .container-md>h2 {
   display: flex;
   color: rgb(231, 114, 114);
   background-color: steelblue;
+  border: solid black;
+}
+
+#brands-colmn {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+  border: solid black;
+}
+
+.cnt-1 {
+  border: solid black;
 }
 
 
