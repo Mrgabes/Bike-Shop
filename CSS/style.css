@@ -1,0 +1,38 @@
+
+  h1 {
+    position: flex;
+    text-align: center;
+    color: red;;
+    text-shadow: 2px 2px black;
+  }
+
+#navbar {
+  background-image: url(https://i1.sndcdn.com/avatars-000417564474-fn3hrh-t500x500.jpg);
+  display: flex;
+  justify-content: center;
+}
+
+#cnt-colmn {
+  display: flex;
+  margin-top: 2em;
+}
+
+img {
+  width: 25em;
+}
+
+.container-md {
+  display: flex;
+  
+  }
+
+.container-md>h2 {
+  display: flex;
+  color: rgb(231, 114, 114);
+  background-color: steelblue;
+}
+
+
+
+
+
