@@ -47,9 +47,13 @@ width: 400px;
 }
 
 .cnt-1 {
+  display: flex;
   border: solid black;
+  justify-content: center;
 }
-
+.cnt-1:only-of-type > p {
+  background-color: aquamarine;
+}
 
 
 
